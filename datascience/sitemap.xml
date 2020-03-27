@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://datascience.suvenconsultants.com/</loc>
+  <lastmod>2019-09-02T14:00:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/interviews/</loc>
+  <lastmod>2019-09-02T14:00:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/readMe.txt</loc>
+  <lastmod>2019-09-02T14:00:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/Foreign_key_constraints_example.pdf</loc>
+  <lastmod>2019-09-02T14:00:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/statistics.suvenconsultants.com</loc>
+  <lastmod>2019-09-02T14:00:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/chapter_1s.py</loc>
+  <lastmod>2019-05-07T13:07:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/chapter_2s.py</loc>
+  <lastmod>2019-05-07T13:07:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/chapter_3s.py</loc>
+  <lastmod>2019-05-07T13:07:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/project%20combine%20select%20pages%20from%20many%20pdfs_Spec.py</loc>
+  <lastmod>2019-05-08T10:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Project%20find%20email%20addr%20and%20phone%20numbers%20from%20a%20web%20page_Spec.py</loc>
+  <lastmod>2019-05-08T10:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/setup%20python%20machine%20learning%20packages%20.txt</loc>
+  <lastmod>2019-05-08T06:49:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Python%20Data%20types%20used%20in%20ML%20programming%20(a%20small%20refresher).ipynb</loc>
+  <lastmod>2019-05-08T06:49:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/CaseStudy_1_ml_Predicting%20Student%20Grant%20Recommendations.ipynb</loc>
+  <lastmod>2019-05-08T06:48:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/NumPy%20basics.ipynb</loc>
+  <lastmod>2019-05-08T06:49:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Pandas%20for%20data%20Analysis.ipynb</loc>
+  <lastmod>2019-05-08T06:49:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Matplotlib%20for%20Data%20Visualization.ipynb</loc>
+  <lastmod>2019-05-08T06:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Scikit-Learn%20for%20Data%20Science.ipynb</loc>
+  <lastmod>2019-05-08T06:49:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Research%20Paper_Case%20study%20on%20Phishing%20Email%20detection.pdf</loc>
+  <lastmod>2019-05-25T07:44:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/downloads/Research%20Paper_News%20Summarization%20using%20Text%20Mining.pdf</loc>
+  <lastmod>2019-05-25T07:44:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/interviews/assets/accuracy_precision_recall_f1_interpretation.pdf</loc>
+  <lastmod>2019-08-07T07:47:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://datascience.suvenconsultants.com/interviews/assets/Bonus%20Topic%20-%20How%20to%20deploy%20your%20ML%20Model%20.ipynb</loc>
+  <lastmod>2019-08-06T13:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

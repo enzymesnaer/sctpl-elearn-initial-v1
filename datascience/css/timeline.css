@@ -1,0 +1,424 @@
+/* body {
+  background-color: #f5efed;
+}
+
+section {
+  height: 600px;
+  background-image: linear-gradient(to bottom, rgba(0, 121, 193, 0.75) 0%, rgba(70, 93, 255, 0.75) 100%), url(http://bluebeam.com/uk/bluebeamchallenge/_assets/bg-hero.jpg);
+}
+section h1 {
+  margin-top: 50px;
+  margin-bottom: 350px;
+  color: white;
+} */
+
+.timeline h1 {
+  font-size: 26px !important;
+  margin: .67em 0;
+  line-height:35px !important;
+}
+
+
+
+.timeline p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+.timeline h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: #1c77c3;
+  text-align: center;
+}
+
+.timeline {
+  width: 100%;
+  position: relative;
+  perspective: 5000px;
+}
+.timeline:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  background-color: #d5dfe5;
+  border-radius: 15px;
+  top: 88px;;
+}
+.timeline .timeline-item {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.timeline .timeline-item:after {
+  transform: scale(1.5, 1.5);
+}
+.timeline .timeline-item.selected:after {
+  background-color: #1c77c3;
+  border: 5px solid #56cbf9;
+  transform: scale(1.5, 1.5);
+}
+.timeline .timeline-item:after {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 81px;
+  left: 50%;
+  margin-left: -15px;
+  background-color: #f5efed;
+  border: 5px solid #d5dfe5;
+  content: "";
+  border-radius: 50%;
+  transition: transform .5s ease;
+}
+.timeline .timeline-item .timeline-content {
+  position: absolute;
+  top: -165px;
+  display: none;
+  width: 350px;
+  left: -60px;
+  cursor: auto;
+  animation-duration: 0.05s;
+  
+}
+
+.timeline .timeline-item .timeline-content.fadeIn {
+  animation-delay: 0.2s;
+}
+.timeline .timeline-item .timeline-content.animated {
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-items-default {
+  width: 224px;
+  height: 150px;
+}
+
+.timeline .dropdown {
+  width: 400px;
+  height: 220px;
+  background: white;
+  box-shadow: 0 3px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  top: -175px;
+  animation-duration: .2s;
+  transition: left .2s ease;
+}
+.timeline .dropdown .inner {
+  position: relative;
+  width: 100%;
+  height: 326px;
+}
+.timeline .dropdown .inner .arrow-down {
+  position: absolute;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.timeline .arrow-down {
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 20px solid white;
+}
+
+.animated {
+  display: block;
+}
+
+.material-icons {
+  position: absolute;
+  top: 164px;
+  left: 147px;
+  width: 100%;
+  color: white;
+  font-size: 33px;
+}
+
+.hexagon {
+  position: absolute;
+  width: 75px;
+  height: 43.30px;
+  background-color: #1c77c3;
+  margin: 21.65px 0;
+  left: 50%;
+  margin-left: -41px;
+  top: 146px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 37.5px solid transparent;
+  border-right: 37.5px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 21.65px solid #1c77c3;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 21.65px solid #1c77c3;
+}
+
+
+
+
+
+
+
+  .cd-timeline {
+    overflow: hidden;
+    margin: -2em auto;
+  }
+  
+  .cd-timeline__container {
+    position: relative;
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  
+  .cd-timeline__container::before {
+    /* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    height: 88%;
+    width: 4px;
+    background: #d7e4ed;
+  }
+
+  @media only screen and (min-width: 1170px) {
+    .cd-is-hidden {
+      visibility: hidden;
+    }
+  
+    .cd-timeline__img.cd-timeline__img--bounce-in {
+      visibility: visible;
+      animation: cd-bounce-1 0.6s;
+    }
+  }
+  
+  @keyframes cd-bounce-1 {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Dancing+Script:700");
+  .typo-steps{
+    max-width: 1200px;
+    margin-top: -50px !important;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+
+.typo-steps html {
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+.typo-steps h1 {
+  font-size: 30px;
+
+}
+
+.typo-steps .threed {
+  font-family: "Dancing Script";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 35px;
+  color: dimgray;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+  text-shadow: -0px 0 rgba(0, 255, 255, 0.4), 0px 0 rgba(255, 0, 255, 0.4);
+}
+
+
+.carousel body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  
+}
+.carousel h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	position: relative;
+  margin: auto 0;
+  top: -40px; 
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+}
+.carousel h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+  bottom: -10px;
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+}
+.carousel .carousel {
+  margin: 0 auto;
+  padding-top: 0px !important;
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+}
+.carousel .carousel .item {
+	color: #999;
+	font-size: 14px;
+    align-items: center;
+	overflow: hidden;
+}
+.carousel .carousel .item a {
+	color: #eb7245;
+}
+.carousel .carousel .img-box {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+  border-radius: 50%;
+  margin-top: 31px;
+  
+}
+.carousel .carousel .testimonial {	
+  padding: 30px 0 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 350 !important;
+  padding-right: 3px;
+}
+.carousel .carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+.carousel .carousel .star-rating i {
+	font-size: 18px;
+    color: #ffdc12;
+}
+
+.star-rating {
+  margin-left: 220px !important;
+}
+.star-rating_mob {
+  /*margin-left: -264px !important;*/
+  font-size: 18px;
+  color: #ffdc12;
+  margin-left: -65px !important;
+}
+.carousel .carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+  background: #999;
+  text-shadow: none;
+  top: 4px;
+  display: none;
+}
+.carousel .carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel .carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -2px;
+}
+.carousel .carousel .carousel-indicators {
+  bottom: 15px;
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+  left:187.5px;
+  display: none;
+}
+.carousel .carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+  border-radius: 50%;
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+}
+.carousel .carousel-indicators li {	
+	background: #e2e2e2;
+  border-color: transparent;
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+}
+.carousel .carousel-indicators li.active {
+	border: none;
+  background: #888;		
+  text-align: center !important;
+  align-items: center;
+  align-content: center;
+}
+
+.list-inline {
+  /*margin-left: 266px !important*/
+  margin-left: 64px !important;
+}
+

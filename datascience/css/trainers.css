@@ -1,0 +1,62 @@
+#testimonial .img-circle{
+    display: block;
+    margin: 0 auto;
+    margin-top:-10px;
+    margin-bottom:15px;
+}
+
+.testimonial-part{
+  margin:5px 60px;
+}
+
+.blockquote-footer{
+  color: #34495e;
+}
+
+.comment-box , .comment-box2{
+ color: #FFFFFF;
+ background: #34495e;
+ position: relative;
+ max-width: 500px;
+ max-height: 100px;
+ min-height:100px;
+ text-align: center;
+ border-radius: 10px;
+ margin:0 auto;
+}
+
+.comment-box:after {
+ content: '';
+ position: absolute;
+ border-style: solid;
+ border-width: 15px 0 15px 15px;
+ border-color: transparent #34495e;
+ right: -15px;
+ top: 45px;
+}
+
+.comment-box2:after {
+ content: '';
+ position: absolute;
+ border-style: solid;
+ border-width: 15px 0 15px 15px;
+ border-color: transparent #34495e;
+ left: -14px;
+ top: 45px;
+ transform: rotate(180deg);
+}
+
+.comment-box p , .comment-box2 p{
+  padding:2px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus{
+  padding:0px 00px;
+  
+}
+
+
+
+/* NEWS CARDS CSS */
+
